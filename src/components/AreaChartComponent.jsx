@@ -35,7 +35,7 @@ const chartdata = [
 ];
 
 const valueFormatter = function(number) {
-  return "$ " + new Intl.NumberFormat("us").format(number).toString();
+  return "£ " + new Intl.NumberFormat("us").format(number).toString();
 };
 
 const AreaChartComponent = () => {
